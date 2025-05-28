@@ -22,7 +22,7 @@ const dashboard = async (req, res) => {
   const number = Math.floor(Math.random() * 100);
   res.status(200).json({
     msg: `Hello,${req.user.username}`,
-    secret: `Here is your authorized date,your lucky number is ${number}`,
+    secret: `Here is your authorized data,your lucky number is ${number}`,
   });
 };
 
